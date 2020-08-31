@@ -35,6 +35,8 @@ const generateHint = () =>  {
 const mastermind = (guess) => {
   solution = 'abcd'; // Comment this out to generate a random solution
   // your code here
+  let attemptedGuess = guess;
+  console.log("This is inside the mastermind function", attemptedGuess)
 }
 
 
